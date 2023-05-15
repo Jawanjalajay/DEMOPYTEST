@@ -45,8 +45,8 @@ class Test_B:
     def test_mul(self):
         p,q=10,20
         r=p*q
-        print(r)
+        # print(r)
         if r==200:
-            assert False
-        else:
             assert True
+        else:
+            assert False
